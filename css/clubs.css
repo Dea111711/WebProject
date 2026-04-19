@@ -162,6 +162,75 @@ body {
   display: block;
 }
 
+.clubs-section {
+  max-width: 1300px;
+  margin: 70px auto;
+  padding: 0 40px;
+}
+
+.clubs-section .section-title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #2f1b18;
+  margin-bottom: 55px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 38px 30px;
+}
+
+.club-card {
+  background: #fff;
+  border: 1px solid rgba(75, 45, 34, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.club-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.club-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.club-content {
+  padding: 22px;
+}
+
+.club-category {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #b17946;
+  margin-bottom: 12px;
+}
+
+.club-content h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  color: #2f1b18;
+}
+
+.club-content p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6a554a;
+  margin-bottom: 18px;
+}
+
+
 
 .footer {
   background: linear-gradient(180deg, #2f1b18 0%, #241411 100%);
